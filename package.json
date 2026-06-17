@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-portfolio-screenshots",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "screenshots": "node screenshot-portfolio.mjs",
+    "screenshots:install": "npm install && npx playwright install chromium",
+    "enhance": "node enhance-screenshots.js"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "playwright": "^1.52.0",
+    "sharp": "^0.35.1"
+  }
+}
