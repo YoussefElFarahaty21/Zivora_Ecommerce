@@ -27,3 +27,9 @@ Thumbs.db
 # Misc
 *.pid
 coverage/
+
+package.json
+package-lock.json
+PROJECT.md
+screenshot-portfolio.mjs
+scripts/
