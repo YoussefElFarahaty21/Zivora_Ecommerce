@@ -28,8 +28,18 @@ Thumbs.db
 *.pid
 coverage/
 
-package.json
-package-lock.json
-PROJECT.md
+# Local helper / scraping scripts
 screenshot-portfolio.mjs
-scripts/
+enhance-screenshots.js
+backend/scripts/
+
+# AI / Cursor tooling
+.cursor/
+.claude/
+.cursorrules
+CLAUDE.md
+AGENTS.md
+
+# Private project notes
+PROJECT.md
+project.md
